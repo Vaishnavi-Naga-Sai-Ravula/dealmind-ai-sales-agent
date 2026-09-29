@@ -1,0 +1,36 @@
+[
+  {
+    "id": "aster-health", "company": "Aster Health", "contact": "Priya Menon", "role": "VP of Operations",
+    "industry": "Healthcare", "title": "Patient operations platform", "stage": "Negotiation", "value": 72000,
+    "summary": "Consolidating patient operations across 12 clinics. Procurement is reviewing the annual proposal; a security review remains open.",
+    "created_at": "2026-08-03T09:00:00Z",
+    "interactions": [
+      {"id": "aster-01", "deal_id": "aster-health", "channel": "Call", "title": "Discovery: security before scale", "occurred_at": "2026-08-03T09:00:00Z", "content": "Priya said Aster Health needs India-only data residency and SSO before deploying across 12 clinics. Their current vendor could not provide an audit trail. She prefers a concise written security checklist rather than a long slide deck."},
+      {"id": "aster-02", "deal_id": "aster-health", "channel": "Meeting", "title": "Demo with the clinical operations team", "occurred_at": "2026-08-18T10:30:00Z", "content": "The operations team liked the workflow demo. Priya requested a two-clinic pilot before rollout. IT lead Rohan must approve SSO and the data residency architecture. No security documents have been sent yet."},
+      {"id": "aster-03", "deal_id": "aster-health", "channel": "Email", "title": "Procurement asks about annual pricing", "occurred_at": "2026-09-10T08:00:00Z", "content": "Priya said the $72,000 annual proposal is within budget if the pilot succeeds. Procurement wants a 30-day pilot acceptance plan. She asked us not to assume that budget approval means security approval."},
+      {"id": "aster-04", "deal_id": "aster-health", "channel": "Call", "title": "Final review needs the original security context", "occurred_at": "2026-09-25T11:00:00Z", "content": "Priya is concerned that the proposal still does not address the requirements discussed in August. Rohan will join the next review. She asked for the security checklist and a clear owner for the pilot before discussing signature dates."}
+    ]
+  },
+  {
+    "id": "northstar-logistics", "company": "Northstar Logistics", "contact": "Arjun Rao", "role": "Director of Technology",
+    "industry": "Logistics", "title": "Fleet visibility rollout", "stage": "Evaluation", "value": 48000,
+    "summary": "Evaluating shipment visibility for 300 vehicles. Integration reliability and driver connectivity are key to the pilot decision.",
+    "created_at": "2026-08-12T08:00:00Z",
+    "interactions": [
+      {"id": "north-01", "deal_id": "northstar-logistics", "channel": "Meeting", "title": "Discovery: patchy connectivity", "occurred_at": "2026-08-12T08:00:00Z", "content": "Arjun requires offline capture because drivers lose connectivity on rural routes. Northstar uses SAP and needs shipment events synced through an API. Arjun prefers technical documentation before a demo."},
+      {"id": "north-02", "deal_id": "northstar-logistics", "channel": "Email", "title": "Pilot success criteria", "occurred_at": "2026-09-02T10:00:00Z", "content": "Arjun requested a 20-vehicle pilot with event delivery measured after devices reconnect. He is comparing RoutePulse. The finance team is concerned about per-vehicle price increases after the pilot."},
+      {"id": "north-03", "deal_id": "northstar-logistics", "channel": "Call", "title": "Reconnect behavior still unproven", "occurred_at": "2026-09-23T09:00:00Z", "content": "Arjun said the online demo was useful but did not prove the rural-route requirement. He wants a live offline-to-online test and a written year-two pricing cap before approving the pilot."}
+    ]
+  },
+  {
+    "id": "meridian-retail", "company": "Meridian Retail", "contact": "Sana Iqbal", "role": "Head of Customer Experience",
+    "industry": "Retail", "title": "Customer support workspace", "stage": "Proposal", "value": 36000,
+    "summary": "Unifying support across 40 stores. A seasonal launch creates a tight migration window and training constraints.",
+    "created_at": "2026-08-20T10:00:00Z",
+    "interactions": [
+      {"id": "meridian-01", "deal_id": "meridian-retail", "channel": "Call", "title": "Holiday launch constraints", "occurred_at": "2026-08-20T10:00:00Z", "content": "Sana needs the support workspace live before November 1. Store agents need Hindi and Telugu training. The existing ticket history must migrate without losing customer conversations."},
+      {"id": "meridian-02", "deal_id": "meridian-retail", "channel": "Meeting", "title": "Budget and migration review", "occurred_at": "2026-09-09T10:00:00Z", "content": "Sana confirmed a $36,000 annual budget. The CFO needs migration costs itemized separately. Sana prefers short video walkthroughs and requires a named escalation contact during launch week."},
+      {"id": "meridian-03", "deal_id": "meridian-retail", "channel": "Email", "title": "Training plan missing from proposal", "occurred_at": "2026-09-24T08:00:00Z", "content": "Sana is concerned that the proposal only includes English onboarding. She asked us to revisit the language requirements from discovery and confirm whether migration can finish before the seasonal launch."}
+    ]
+  }
+]
